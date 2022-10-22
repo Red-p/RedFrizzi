@@ -53,8 +53,6 @@ def init():
         of.write("HEADERS_API_KEY="+ "\"" + api_key + "\"")
         of.write('\n')
 
-#URL="https://breachdirectory.p.rapidapi.com/"
-#HEADERS_API_HOST="breachdirectory.p.rapidapi.com"
 
 def write_res_query(target,outputfile,result_query):
     res_asjson=dict()
