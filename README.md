@@ -15,6 +15,3 @@ Usage: [rf -options]
 > --init : Set API Key </br>
 > --clear : Reset terminal </br>
 
-Al momento sono presenti due script: </br>
-> redfrizzi_no_readlines.py: più indicato per file di grandi dimensioni ma più soggetto ad errori </br>
-> redfrizzi.py: poco indicato per file di grandi dimensioni ma meno soggetto ad errori
