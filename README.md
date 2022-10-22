@@ -8,9 +8,13 @@ options:
 </br>
 Usage: [rf -options]
 </br>
-> -t <target> : Enter the target name
-> -f < input_filename> : Load target names from file
-> -o <output_filname> : Print response to <output_file>
-> --john <inputfile>: Create outputfile for John using <inputfile>
-> --init : Set API Key
-> --clear : Reset terminal
+> -t <target> : Enter the target name </br>
+> -f < input_filename> : Load target names from file </br>
+> -o <output_filname> : Print response to <output_file> </br>
+> --john <inputfile>: Create outputfile for John using <inputfile> </br>
+> --init : Set API Key </br>
+> --clear : Reset terminal </br>
+
+Al momento sono presenti due script: </br>
+> redfrizzi_noreadlines.py: più indicato per file di grandi dimensioni ma più soggetto ad errori
+> redfrizzi.py: poco indicato per file di grandi dimensioni ma meno soggetto ad errori
