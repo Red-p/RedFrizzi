@@ -1,8 +1,8 @@
 ## RedFrizzi
 *Permette di cercare tracce di password relativamente a mail o domini su precedenti data breach.* </br>
+</br>
 Se esistono risultati restituisce le iniziali delle password e l'hash della stessa in sha1<\br>
 E' possibile generare il file da dare in pasto a john con l'opzione rf --john <nome_file>, dove <nome_file> contiene i risultati generati. </br>
-</br>
 </br>
 options:
 </br>
