@@ -15,3 +15,4 @@ Usage: [rf -options]
 > --init : Set API Key </br>
 > --clear : Reset terminal </br>
 
+Lo script utilizza le API di https://breachdirectory.org, quindi è necessario ottenere l'API Key per accedere alle API. Ottenuta la key è possibile settarlo utilizzando il tasto rf --init oppure modificando direttamente il file env . </br>
