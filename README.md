@@ -4,6 +4,7 @@ Se esistono risultati restituisce le iniziali delle password e l'hash della stes
 E' possibile generare il file da dare in pasto a john con l'opzione rf --john <nome_file>, dove <nome_file> contiene i risultati generati. </br>
 </br>
 </br>
+launch : python3 redfrizzi_no_readlines.py/redfrizzi.py </br>
 options:
 </br>
 Usage: [rf -options]
@@ -16,5 +17,5 @@ Usage: [rf -options]
 > --clear : Reset terminal </br>
 
 Al momento sono presenti due script: </br>
-> redfrizzi_noreadlines.py: più indicato per file di grandi dimensioni ma più soggetto ad errori </br>
+> redfrizzi_no_readlines.py: più indicato per file di grandi dimensioni ma più soggetto ad errori </br>
 > redfrizzi.py: poco indicato per file di grandi dimensioni ma meno soggetto ad errori
