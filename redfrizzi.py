@@ -54,7 +54,7 @@ def init():
         of.write('\n')
 
 #URL="https://breachdirectory.p.rapidapi.com/"
-#HEADERS_API_KEY="c274ca0661mshdf4359156f0abb0p13ff38jsn9827e7972e31"
+
 #HEADERS_API_HOST="breachdirectory.p.rapidapi.com"
 
 def write_res_query(target,outputfile,result_query):
