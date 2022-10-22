@@ -16,5 +16,5 @@ Usage: [rf -options]
 > --clear : Reset terminal </br>
 
 Al momento sono presenti due script: </br>
-> redfrizzi_noreadlines.py: più indicato per file di grandi dimensioni ma più soggetto ad errori
+> redfrizzi_noreadlines.py: più indicato per file di grandi dimensioni ma più soggetto ad errori </br>
 > redfrizzi.py: poco indicato per file di grandi dimensioni ma meno soggetto ad errori
