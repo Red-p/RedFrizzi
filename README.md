@@ -1,18 +1,21 @@
 ## RedFrizzi
-*Permette di cercare tracce di password relativamente a mail o domini su precedenti data breach.* </br>
+*A tool to search for password traces related to emails or domains in past data breaches.* </br>
 </br>
-Se esistono risultati restituisce le iniziali delle password e l'hash della stessa in sha1 </br>
-E' possibile generare il file da dare in pasto a john con l'opzione rf --john <nome_file>, dove <nome_file> contiene i risultati generati. </br>
+If results are found, it returns the initial characters of the passwords and their SHA-1 hashes. </br>
+It is possible to generate a file to be used with John the Ripper using the option rf --john <filename>, where <filename> contains the generated results. </br>
 </br>
 options:
 </br>
 Usage: [rf -options]
 </br>
-> -t <target> : Enter the target name </br>
-> -f < input_filename> : Load target names from file </br>
-> -o <output_filname> : Print response to <output_file> </br>
-> --john <inputfile>: Create outputfile for John using <inputfile> </br>
-> --init : Set API Key </br>
-> --clear : Reset terminal </br>
 
-Lo script utilizza le API di https://breachdirectory.org, quindi è necessario ottenere l'API Key per accedere alle API. Ottenuta la key è possibile settarla utilizzando il comando rf --init <api_key> oppure modificando direttamente il file env. </br>
+-t <target> : Enter the target name </br>
+-f <input_filename> : Load target names from file </br>
+-o <output_filename> : Print response to <output_file> </br>
+--john <inputfile> : Create output file for John using <inputfile> </br>
+--init : Set API Key </br>
+--clear : Reset terminal </br>
+
+</br>
+The script uses the APIs provided by https://breachdirectory.org, so you need to obtain an API Key to access the API.
+Once you have the key, you can set it using the command rf --init <api_key> or by editing the .env file directly. </br>
